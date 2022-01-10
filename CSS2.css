@@ -1,0 +1,50 @@
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    max-width: 1200px;
+    height: 100vh;
+    grid-gap: 5px;
+    margin: 30px auto;
+    justify-content: center;
+}
+
+.Un{
+    grid-column: 1/4;
+    border: 1px solid black;
+}
+
+.Deux{
+    grid-column: 1/2;
+    border: 1px solid black;
+}
+
+.Trois{
+    grid-column: 2/4;
+    border: 1px solid black;
+}
+
+.Quatre{
+    grid-column: 1/3;
+    border: 1px solid black;
+}
+
+.Cinq{
+    grid-column: 3/4;
+    border: 1px solid black;
+}
+
+.Six{
+    grid-column: 1/2;
+    border: 1px solid black;
+}
+
+.Sept{
+    grid-column: 2/3;
+    border: 1px solid black;
+}
+
+.Huit{
+    grid-column: 3/4;
+    border: 1px solid black;
+}
